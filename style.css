@@ -370,6 +370,28 @@ footer .believe li {
 .onScroll {
     padding-top: 50px;
 }
+@media (max-width: 800px){
+    section.secondSect {
+        background: rgb(3, 0, 46);
+        margin: auto;
+        color: red;
+        font-weight: bold;
+    }
+    div.row {
+        display: flex;
+        flex-direction:  column-reverse;
+    }
+    div.first {
+        /* background: rgb(0, 0, 0); */
+        padding: 1%;
+        text-align: center;
+    }
+    div.second {
+        background: rgb(3, 0, 46);
+        color: #000;
+        text-align: center;
+    }
+}
 
 
 @media (max-width:690px) {
